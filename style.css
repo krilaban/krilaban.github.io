@@ -1,0 +1,161 @@
+div{
+    background: #b6c9e3;
+    width: 760px;
+}
+
+nav{
+  background: #222;
+  height: 60px;
+  width: 760px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+main{
+  margin-top: 60px;
+}
+
+button{
+  height: 30px;
+  background: #222;
+  color: white;
+  border: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+}
+
+button:hover{
+  color: red;
+}
+
+#button1{
+  margin-left: 100px;
+}
+
+#button2{
+  margin-right: 100px;
+}
+
+page1{
+  position: relative;
+}
+
+img{
+  width: 380px;
+  }
+
+#address1{
+  position: absolute;
+  top: 250px;
+  left: 130px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  color: #222;
+}
+
+#address2{
+  position: absolute;
+  top: 260px;
+  left: 130px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 62px;
+  color: #222;
+}
+
+#address3{
+  position: absolute;
+  top: 320px;
+  left: 130px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 62px;
+  color: #222;
+}
+
+#p1{
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.ul1{
+  font-size: 14px;
+  line-height: 25px;
+}
+
+page{
+  width: 760px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+subpage{
+  width: 340px;
+  margin: 0 20px 0 20px;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #222;
+  line-height: 25px;
+}
+
+li{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  list-style-type: square;
+  color: #222;
+  line-height: 28px;
+}
+
+.upper{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #222;
+  margin: 40px 0 40px 0;
+}
+
+.lower{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+blockquote{
+  width: 280px;
+  height: 100%;
+  background: #222;
+  color: #b6c9e3;
+  padding: 20px 40px 20px 60px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 26px;
+  align-self: flex-top;
+  position: relative;
+  margin: 0;
+}
+
+h4{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #222;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+sign{
+  position: absolute;
+  top: -40px;
+  left: 2px;
+  font-size: 150px;
+  margin: 0;
+  padding: 0;
+}
